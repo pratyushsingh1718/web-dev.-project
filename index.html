@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+body{
+    color: white;
+    background-color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    z-index: 100;
+    background:rgb(49, 22, 53)
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+
+}
+.navbar ul li a:hover{
+    color: #0ef;
+} 
+#Home{
+    position: relative;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 2rem;
+    background:rgb(30, 17, 42);
+}
+
+section .card{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    background: black;
+    position: relative;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+section .card img{
+   width: 24rem;
+   height: 24rem;
+   border-radius: 50%;
+    
+}
+
+section .card::before{
+    filter: blur(5rem);
+    opacity: 2;
+}
+ 
+.head span{
+    color: rgb(0, 4, 250);
+}
+#wh{
+    margin-top: 10px;
+    width: fit-content;
+    background: linear-gradient(to right,grey,#beb2c8,white);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 9px rgb(47, 13, 196) ;
+    
+}
+
+.home-content{
+    margin-left: 5rem;
+    width: 35rem;
+}
+.home-content h3{
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.3px;
+    font-size: 30px;
+}
+
+p{
+    margin-top: 2rem;
+    width: 28rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(141, 145, 0);
+    margin-bottom: 2rem;
+}
+.home-content .home-social a{
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: blueviolet;
+}
+.home-content .home-social{
+    margin-bottom: 1.5rem;
+
+}
+
+.home-cta {
+    background-color: #0ef;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+section .home-content .home-cta h2{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+
+}
+section .home-content .home-cta:hover{
+    background-color: #FF0000;
+    cursor: pointer;
+}
